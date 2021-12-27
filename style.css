@@ -1,0 +1,38 @@
+* {
+  font-family: poppins, serif;
+}
+body {
+  background-color: #FFEBCC;
+}
+
+div {
+  margin: auto;
+}
+.playground {
+  display: flex;
+}
+.chessBoard {
+  margin: 8% auto;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+.item {
+  height: 50px;
+  width: 50px;
+}
+.box {
+  display: flex;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
